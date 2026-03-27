@@ -25,3 +25,6 @@ class Answer(models.Model):
 
     def __str__(self):
         return f"{self.user.username} - {self.score}"
+     def _str_(self):
+            return f"{self.user.username}-{self.score}"
+            
